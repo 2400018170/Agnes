@@ -13,6 +13,7 @@ public:
         }
     }
 
+
     T& operator[](int index) {
         if (index >= 0 && index < N) {
             return data[index];
